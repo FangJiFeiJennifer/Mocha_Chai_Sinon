@@ -1,4 +1,4 @@
-## expect断言
+## expect
 ```javascript
 
 // 相等或不相等
@@ -33,3 +33,11 @@ expect({}).to.be.empty;
 expect('foobar').to.match(/^foo/);
 
 ```
+基本上，expect断言的写法都是一样的。头部是expect方法，尾部是断言方法，比如equal、a/an、ok、match等。两者之间使用to或to.be连接。
+
+如果expect断言不成立，就会抛出一个错误。事实上，只要不抛出错误，测试用例就算通过。
+
+``` javascript
+it('1 + 1 should be equal 2', () => {});
+```
+上面的这个测试用例，内部没有任何代码，由于没有抛出了错误，所以还是会通过。

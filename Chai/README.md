@@ -19,6 +19,10 @@ expect(foo).to.be.an.instanceof(Foo);
 expect([1,2,3]).to.include(2);
 expect('foobar').to.contain('foo');
 expect({ foo: 'bar', hello: 'universe' }).to.include.keys('foo');
+expect('bar').to.have.lengthOf(3);
+expect({
+    tea: [ 'chai', 'matcha', 'oolong' ]
+}).to.have.property('tea').with.lengthOf(3);
 
 // empty
 expect([]).to.be.empty;

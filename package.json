@@ -1,0 +1,30 @@
+{
+  "name": "mocha_chai_sinon",
+  "version": "1.0.0",
+  "description": "JS unite test demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "Mocha",
+    "Chai",
+    "Sinon"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FangJiFeiJennifer/Mocha_Chai_Sinon.git"
+  },
+  "author": "Fang, Jennifer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FangJiFeiJennifer/Mocha_Chai_Sinon/issues"
+  },
+  "homepage": "https://github.com/FangJiFeiJennifer/Mocha_Chai_Sinon#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.3"
+  }
+}
